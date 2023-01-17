@@ -1,0 +1,253 @@
+.ring-sizer {
+  font-family: "omnes-pro", dosis, Open Sans;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2em;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.step-container {
+  margin-bottom: 130px;
+}
+
+.instructions {
+  max-width: 440px;
+  margin: 0 auto 50px auto;
+}
+
+/* CARD STYLING */
+.card-container{
+  width: 84.094488189px; /* This is the actual width of a coin */
+  height: 84.094488189px;
+  margin: 20px auto 0;
+}
+
+.credit-card-aspect-ratio {
+  position: relative;
+}
+
+.credit-card-aspect-ratio:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 84.094488189%;  /* new : 84.09 / 84.09 * 100 ,*/
+}
+
+.aspect-content {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.credit-card{
+  position: relative;
+  margin: 0 auto;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.credit-card-component{
+  position: absolute;
+}
+
+.credit-card-stripe {
+  top: 10%;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0,0,0,0.57);
+}
+
+.credit-card-stipe-white {
+  top: 40%;
+  left: 15%;
+  width: 70%;
+  height: 15%;
+  background-color: white;
+}
+
+.credit-card-chip {
+  left: 10%;
+  top: 70%;
+  width: 10%;
+  height: 15%;
+  background-color: #FDDF73;
+  border-radius: 10px;
+}
+
+.credit-card-text {
+  left: 30%;
+  top: 72%;
+  width: 60%;
+  height: 1%;
+  background-color: #646464;
+}
+
+.credit-card-text-2 {
+  top: 77%;
+  width: 45%;
+}
+
+.credit-card-text-3 {
+  top: 82%;
+  width: 50%;
+}
+
+/* RING STYLING */
+.ring-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #63c3d4;
+  color: white;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+}
+
+.ring-4 {
+  width: 56.15888688px;
+  height: 56.15888688px;
+}
+
+.ring-4-5{
+  width: 57.71083555px;
+  height: 57.71083555px;
+}
+
+.ring-5{
+  width: 59.33496789px;
+  height: 59.33496789px;
+}
+
+.ring-5-5 {
+  width: 60.85082473px;
+  height: 60.85082473px;
+}
+
+.ring-6 {
+  width: 62.4027734px;
+  height: 62.4027734px;
+}
+
+.ring-6-5 {
+  width: 63.95472208px;
+  height: 63.95472208px;
+}
+
+.ring-7 {
+  width: 65.57885441px;
+  height: 65.57885441px;
+}
+
+.ring-7-5 {
+  width: 67.08268064px;
+  height: 67.08268064px;
+}
+
+.ring-8 {
+  width: 68.75493542px;
+  height: 68.75493542px;
+}
+
+.ring-8-5 {
+  width: 70.03018006px;
+  height: 70.03018006px;
+}
+
+.ring-9 {
+  width: 71.38963898px;
+  height: 71.38963898px;
+}
+
+.ring-9-5 {
+  width: 73.362659px;
+  height: 73.362659px;
+}
+
+.ring-10 {
+  width: 74.98679133px;
+  height: 74.98679133px;
+}
+
+.ring-10-5 {
+  width: 76.34625024px;
+  height: 76.34625024px;
+}
+
+.ring-11 {
+  width: 78.16287234px;
+  height: 78.16287234px;
+}
+
+/* ARROW STYLING */
+.arrow-container {
+  display: inline-block;
+  position: absolute;
+  right: -150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-right: 10px;
+  border-top: 9px solid transparent;
+  border-right: 9px solid #646464;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.arrow:after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: -9px;
+  width: 12px;
+  height: 12px;
+  border: 0 solid transparent;
+  border-top: 3px solid #646464;
+  border-radius: 20px 0 0 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.arrow-instructions {
+  display: inline-block;
+  width: 120px;
+  margin-top: 0;
+  margin-left: 1.5em; /* position instructions to right of arrow */
+  font-size: 15px;
+  color: #63c3d4;
+}
+
+/* OVERRIDE SQUARE SPACE STYLING */
+.content-inner { /* modifies default squarespace banner/content padding */
+  padding-top: 0px;
+}
+
+/* jQuery UI CSS */
+/* Source: https://jqueryui.com/resources/demos/style.css */
+.ui-draggable,
+.ui-droppable {
+  background-position: top;
+}
