@@ -17,9 +17,9 @@
 }
 
 /* CARD STYLING */
-.card-container{
-  width: 84.094488189px; /* This is the actual width of a coin */
-  height: 84.094488189px;
+.card-container {
+  width: 103.18110236px; /* This is the actual width of a coin */
+  height: 103.18110236px;
   margin: 20px auto 0;
 }
 
@@ -31,7 +31,7 @@
   display: block;
   content: "";
   width: 100%;
-  padding-top: 84.094488189%;  /* new : 84.09 / 84.09 * 100 ,*/
+  padding-top: 103.18110236%; /* new : 84.09 / 84.09 * 100 ,*/
 }
 
 .aspect-content {
@@ -42,14 +42,14 @@
   left: 0;
 }
 
-.credit-card{
+.credit-card {
   position: relative;
   margin: 0 auto;
   background-color: green;
   border-radius: 100%;
 }
 
-.credit-card-component{
+.credit-card-component {
   position: absolute;
 }
 
@@ -57,7 +57,7 @@
   top: 10%;
   width: 100%;
   height: 20%;
-  background-color: rgba(0,0,0,0.57);
+  background-color: rgba(0, 0, 0, 0.57);
 }
 
 .credit-card-stipe-white {
@@ -73,7 +73,7 @@
   top: 70%;
   width: 10%;
   height: 15%;
-  background-color: #FDDF73;
+  background-color: #fddf73;
   border-radius: 10px;
 }
 
@@ -114,82 +114,56 @@
   border-radius: 100%;
   margin-bottom: 10px;
   margin-right: 10px;
-  
 }
 
-.ring-4 {
-  width: 56.15888688px;
-  height: 56.15888688px;
+.ring-J {
+  width: 58.54488189px;
+  height: 58.54488189px;
 }
 
-.ring-4-5{
-  width: 57.71083555px;
-  height: 57.71083555px;
+.ring-K {
+  width: 60.094488189px;
+  height: 60.094488189px;
 }
 
-.ring-5{
-  width: 59.33496789px;
-  height: 59.33496789px;
+.ring-L {
+  width: 61.644094488px;
+  height: 61.644094488px;
 }
 
-.ring-5-5 {
-  width: 60.85082473px;
-  height: 60.85082473px;
+.ring-M {
+  width: 63.155905512px;
+  height: 63.155905512px;
 }
 
-.ring-6 {
-  width: 62.4027734px;
-  height: 62.4027734px;
+.ring-N {
+  width: 64.705511811px;
+  height: 64.705511811px;
 }
 
-.ring-6-5 {
-  width: 63.95472208px;
-  height: 63.95472208px;
+.ring-O {
+  width: 66.25511811px;
+  height: 66.25511811px;
 }
 
-.ring-7 {
-  width: 65.57885441px;
-  height: 65.57885441px;
+.ring-P {
+  width: 67.766929134px;
+  height: 67.766929134px;
 }
 
-.ring-7-5 {
-  width: 67.08268064px;
-  height: 67.08268064px;
+.ring-Q {
+  width: 69.316535433px;
+  height: 69.316535433px;
 }
 
-.ring-8 {
-  width: 68.75493542px;
-  height: 68.75493542px;
+.ring-R {
+  width: 70.866141732px;
+  height: 70.866141732px;
 }
 
-.ring-8-5 {
-  width: 70.03018006px;
-  height: 70.03018006px;
-}
-
-.ring-9 {
-  width: 71.38963898px;
-  height: 71.38963898px;
-}
-
-.ring-9-5 {
-  width: 73.362659px;
-  height: 73.362659px;
-}
-
-.ring-10 {
-  width: 74.98679133px;
-  height: 74.98679133px;
-}
-
-.ring-10-5 {
-  width: 76.34625024px;
-  height: 76.34625024px;
-}
-
-.ring-11 {
-  width: 78.16287234px;
-  height: 78.16287234px;
+.ring-S {
+  width: 72.377952756px;
+  height: 72.377952756px;
 }
 
 /* ARROW STYLING */
@@ -241,7 +215,8 @@
 }
 
 /* OVERRIDE SQUARE SPACE STYLING */
-.content-inner { /* modifies default squarespace banner/content padding */
+.content-inner {
+  /* modifies default squarespace banner/content padding */
   padding-top: 0px;
 }
 
